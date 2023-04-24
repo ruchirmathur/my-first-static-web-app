@@ -12,7 +12,7 @@ export class DashboardService {
   searchMember() {
     const request: IRequest = {};
          request.member_user_name = "david101";
-         return this.http.post("http://localhost:8081/searchMember",request);
+         return this.http.post("https://appservicemanagement.azure-api.net/searchMember/searchMember",request);
      }
  
 }
