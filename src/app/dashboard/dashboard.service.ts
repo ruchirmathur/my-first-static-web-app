@@ -12,7 +12,7 @@ export class DashboardService {
   searchMember() {
     const request: IRequest = {};
          request.member_user_name = "david101";
-         return this.http.post("https://appservicemanagement.azure-api.net/api/searchMember/searchMember",request);
+         return this.http.post("https://appservicemanagement.azure-api.net/api/searchMember/api/searchMember",request);
      }
  
 }
